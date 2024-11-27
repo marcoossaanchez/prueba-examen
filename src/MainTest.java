@@ -17,6 +17,7 @@ class MainTest {
     }
     @Test
     void calcularPrecio3(){
+        //
         pruebaprecio = new suscripcion(3,20);
         double precioesperado3 = 1.15;
         assertEquals(precioesperado3, pruebaprecio.precioPorMes());
